@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+
+body{
+  background-color: #777;
+  color:#eee;
+
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    width: 1056px;
+    margin:0 auto;
+    height: 100vh;
+}
+.slider{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 25px;
+    color:#eee;
+}
+.forward{
+   position: absolute;
+   top:50%;
+   left:90%;
+
+}
+.backward{
+   position: absolute;
+   top:50%;
+   left: 10%;
+}
+.img{
+    width: 100%;
+    height: 70vh;
+}
